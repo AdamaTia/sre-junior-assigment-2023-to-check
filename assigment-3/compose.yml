@@ -11,7 +11,8 @@ services:
       - backend
 
   backend:
-    image: go-app-v3
+  # We are using built default image of Golang app from assigment 2
+    image: go-app-def
     ports: 
       - "8080"
 
