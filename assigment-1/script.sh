@@ -13,7 +13,7 @@ usage() {
   echo '  --method  It will count requests but by used method.' 
   exit 0
 }
-USER_AGENT=${2}
+
 if [[ $1 -eq 0 ]]
 then
   echo "You didn't make a choice!"
